@@ -1,0 +1,12 @@
+[workspace]
+
+members = [
+    "no_std_lib",
+    "app",
+]
+
+[profile.dev]
+panic = "abort"
+
+[profile.release]
+panic = "abort"
